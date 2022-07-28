@@ -5,7 +5,10 @@ body{
     color: #657980!important;
 }
 .margin-top-130{
-    margin-top: 100px;
+    margin-top: 130px;
+}
+.margin-top-200{
+    margin-top: 200px;
 }
 .margin-top-100{
     margin-top: 100px;
@@ -20,3 +23,46 @@ body{
 .star-color{
     color: #FBBF24;
 }
+
+/* responsive */
+
+@media (max-width: 576px) { 
+
+    .discover-text .course-list .text-img{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .discover-text .course-list .text-img img{
+        margin-bottom: 20px;
+    }
+    .success-full .success-text .width{
+        width: 100% !important;
+        text-align: center;
+    }
+    .success-full .card{
+        width: 100%!important;
+    }
+    .companies{
+        display: none;
+    }
+ }
+
+ @media (max-width: 992px) { 
+.success-full .success-text .width{
+        width: 80% !important;
+        text-align: left;
+    }
+    .success-full .responsive{
+        text-align: center;
+    }
+    .success-full .card{
+        width: 100%!important;
+    }
+    .companies{
+        display: none;
+    }
+  }
+  @media (max-width: 1200px) { 
+        
+   }
