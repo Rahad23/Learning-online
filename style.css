@@ -10,3 +10,10 @@ body{
 .margin-top-100{
     margin-top: 100px;
 }
+.my-btn-color{
+    background-color: #f5bf2a;
+    font-weight: 500;
+}
+.my-text-color{
+    color: darkslateblue;
+}
